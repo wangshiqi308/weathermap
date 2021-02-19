@@ -32,7 +32,7 @@ servicecomb:
     pattern: "%h %{dd/MMM/yyyy:HH:mm:ss.SSSZ|GMT+0008|en_US}t %r %s %B %D"
 
 # TODO: 使用微服务引擎专业版部署之前，需要配置 AK/SK
-credentials:
+  credentials:
     akskEnabled: true
     accessKey: WXE6ZOBJIIGB9AL12CYU
     secretKey: T0CI3OwE4Mdq5jJYvZsSBJS99i1rN77r1yllSMkK
