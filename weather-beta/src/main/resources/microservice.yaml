@@ -7,12 +7,12 @@ servicecomb:
     properties:
       allowCrossApp: false
     registry:
-      address: https://cse.cn-north-4.myhuaweicloud.com
+      address: https://cse.cn-north-1.myhuaweicloud.com
       instance:
         watch: false
   config:
     client:
-      serverUri: https://cse.cn-north-4.myhuaweicloud.com
+      serverUri: https://cse.cn-north-1.myhuaweicloud.com
       refreshMode: 1
       refresh_interval: 5000
   rest:
@@ -28,9 +28,9 @@ servicecomb:
     pattern: "%h %{dd/MMM/yyyy:HH:mm:ss.SSSZ|GMT+0008|en_US}t %r %s %B %D"
 
 # TODO: 使用微服务引擎专业版部署之前，需要配置 AK/SK
-#  credentials:
-#    akskEnabled: true
-#    accessKey: add your ak/sk from huaweicloud
-#    secretKey: add your ak/sk from huaweicloud
-#    akskCustomCipher: default
-#    project: cn-south-1
+credentials:
+    akskEnabled: true
+    accessKey: WXE6ZOBJIIGB9AL12CYU
+    secretKey: T0CI3OwE4Mdq5jJYvZsSBJS99i1rN77r1yllSMkK
+    akskCustomCipher: default
+    project: cn-north-1
